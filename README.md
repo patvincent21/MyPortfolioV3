@@ -1,6 +1,8 @@
-# myportfolio
+# MyPortfolioV3
 
 Static OpenUI5 freestyle application for a personal portfolio website.
+
+This repository contains the objects for my portfolio site.
 
 ## Run locally
 
