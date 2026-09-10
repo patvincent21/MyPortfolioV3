@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc:View
+  controllerName="myportfolio.controller.App"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+  <App id="App">
+    <pages>
+      <Page title="My Portfolio">
+        <content>
+          <VBox id="portfolioVBox" width="100%">
+            <Text text="Hello, this is my portfolio" />
+          </VBox>
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>
