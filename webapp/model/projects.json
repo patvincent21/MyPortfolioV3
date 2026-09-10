@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "clientName": "KNS Koniambo",
+      "role": "SAP Fiori",
+      "description": "SAP HCM/HR Implementation Project."
+    },
+    {
+      "clientName": "International Paper (Mexico)",
+      "role": "SAP Fiori",
+      "description": "SAP HCM/HR Implementation Project."
+    },
+    {
+      "clientName": "Cetursa Nevada (Spain)",
+      "role": "SAP Fiori/ SAPUI5",
+      "description": "Developed and maintained SAP Fiori applications for SAP HCM/HR module."
+    }
+  ]
+}

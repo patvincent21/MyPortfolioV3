@@ -1,0 +1,20 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F5F1" />
+      <stop offset="1" stop-color="#CFE3D9" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="92" y1="150" x2="166" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B6B5C" />
+      <stop offset="1" stop-color="#123C35" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="36" fill="url(#bg)" />
+  <circle cx="128" cy="104" r="54" fill="#F6D8C9" />
+  <path d="M86 106C86 77.7812 104.781 56 128 56C151.219 56 170 77.7812 170 106V114C170 142.219 151.219 164 128 164C104.781 164 86 142.219 86 114V106Z" fill="#F2C7B0" opacity="0.92" />
+  <path d="M80 102C83.957 77.7842 102.311 58 128 58C153.689 58 172.043 77.7842 176 102C168.385 94.6292 158.364 90 147.2 90H108.8C97.6361 90 87.6153 94.6292 80 102Z" fill="#1E2A24" />
+  <path d="M70 214C70 178.235 98.2353 150 134 150H144C179.765 150 208 178.235 208 214V228H48V214C48 180.863 74.8629 154 108 154H118C123.523 154 128 158.477 128 164C128 158.477 132.477 154 138 154H148C181.137 154 208 180.863 208 214V228H70V214Z" fill="url(#shirt)" />
+  <path d="M110 108C110 103.582 113.582 100 118 100C122.418 100 126 103.582 126 108" stroke="#2E221D" stroke-width="6" stroke-linecap="round" />
+  <path d="M130 108C130 103.582 133.582 100 138 100C142.418 100 146 103.582 146 108" stroke="#2E221D" stroke-width="6" stroke-linecap="round" />
+  <path d="M115 129C120.333 135 136 135 141 129" stroke="#C47A67" stroke-width="6" stroke-linecap="round" />
+</svg>
