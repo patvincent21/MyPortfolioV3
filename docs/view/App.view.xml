@@ -3,17 +3,125 @@
   controllerName="myportfolio.controller.App"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns="sap.m"
-  xmlns:core="sap.ui.core"
+  displayBlock="true"
 >
-  <App id="App">
-    <pages>
-      <Page title="My Portfolio">
-        <content>
-          <VBox id="portfolioVBox" width="100%">
-            <Text text="Hello, this is my portfolio" />
-          </VBox>
-        </content>
-      </Page>
-    </pages>
+  <App>
+    <Page showHeader="false" enableScrolling="true" class="pageCanvas">
+      <content>
+        <VBox class="heroSection sapUiResponsiveMargin">
+          <HBox class="heroIdentity" alignItems="Center" renderType="Bare">
+            <Image
+              src="images/profile-thumb.svg"
+              alt="Portrait thumbnail"
+              decorative="false"
+              class="profileThumb"
+            />
+            <VBox class="heroNameBlock">
+              <Title text="Pat Vincent Lachica" level="H1" class="heroTitle" />
+              <Text
+                text="SAP Technical Consultant"
+                class="heroSubtitle"
+              />
+            </VBox>
+          </HBox>
+          <HBox class="heroButtons" wrap="Wrap">
+            <Button text="View GitHub" type="Emphasized" icon="sap-icon://source-code" />
+            <Button text="Contact Me" icon="sap-icon://email" />
+          </HBox>
+        </VBox>
+
+        <VBox class="sectionBlock sapUiResponsiveMargin">
+          <Title text="Skills" level="H2" class="sectionTitle" />
+          <HBox wrap="Wrap" class="tagRow">
+            <GenericTag text="SAP Fiori" status="Success" class="skillTag" />
+            <GenericTag text="SAPUI5" status="Success" class="skillTag" />
+            <GenericTag text="SAP PI/PO" status="Success" class="skillTag" />
+            <GenericTag text="SAP ABAP" status="Success" class="skillTag" />
+          </HBox>
+        </VBox>
+
+        <VBox class="sectionBlock sapUiResponsiveMargin">
+          <Title text="Work Experience" level="H2" class="sectionTitle" />
+          <Panel class="glassCard" expandable="false">
+            <headerToolbar>
+              <OverflowToolbar>
+                <Title text="Strada" level="H4" />
+                <ToolbarSpacer />
+                <ObjectStatus text="June 2021 - Present" state="Success" />
+              </OverflowToolbar>
+            </headerToolbar>
+            <content>
+              <HBox class="roleRow" alignItems="Center" justifyContent="SpaceBetween" wrap="Wrap">
+                <Text text="Role: SAP Fiori, SAPUI5, SAP ABAP Consultant" wrapping="true" class="roleText" />
+                <Button
+                  text="Projects"
+                  type="Transparent"
+                  icon="sap-icon://popup-window"
+                  press="onOpenProjects"
+                  class="projectsButton"
+                />
+              </HBox>
+            </content>
+          </Panel>
+          <Panel class="glassCard" expandable="false">
+            <headerToolbar>
+              <OverflowToolbar>
+                <Title text="IBM" level="H4" />
+                <ToolbarSpacer />
+                <ObjectStatus text="May 2020 - May 2021" state="Information" />
+              </OverflowToolbar>
+            </headerToolbar>
+            <content>
+              <Text text="Created responsive web interfaces and collaborated with backend teams to deliver robust business solutions." wrapping="true" />
+            </content>
+          </Panel>
+          <Panel class="glassCard" expandable="false">
+            <headerToolbar>
+              <OverflowToolbar>
+                <Title text="Fujitsu Global Delivery Center" level="H4" />
+                <ToolbarSpacer />
+                <ObjectStatus text="July 2015 - April 2020" state="Information" />
+              </OverflowToolbar>
+            </headerToolbar>
+            <content>
+              <Text text="Created responsive web interfaces and collaborated with backend teams to deliver robust business solutions." wrapping="true" />
+            </content>
+          </Panel>
+        </VBox>
+
+        <VBox class="sectionBlock sapUiResponsiveMargin">
+          <Title text="Education" level="H2" class="sectionTitle" />
+          <Panel class="glassCard" expandable="false">
+            <headerToolbar>
+              <OverflowToolbar>
+                <Title text="Bachelor of Science in Information Technology" level="H4" />
+                <ToolbarSpacer />
+                <ObjectStatus text="2018 - 2022" state="Information" />
+              </OverflowToolbar>
+            </headerToolbar>
+            <content>
+              <Text text="Focused on software development, web technologies, and information systems fundamentals." wrapping="true" />
+            </content>
+          </Panel>
+        </VBox>
+
+        <VBox class="sectionBlock sapUiResponsiveMargin">
+          <Title text="Training" level="H2" class="sectionTitle" />
+          <Panel class="glassCard" expandable="false">
+            <headerToolbar>
+              <OverflowToolbar>
+                <Title text="SAPUI5 and Fiori Essentials" level="H4" />
+                <ToolbarSpacer />
+                <ObjectStatus text="Completed" state="Success" />
+              </OverflowToolbar>
+            </headerToolbar>
+            <content>
+              <Text text="Hands-on training covering SAPUI5 controls, XML views, routing, and Fiori design practices." wrapping="true" />
+            </content>
+          </Panel>
+        </VBox>
+
+      </content>
+    </Page>
   </App>
 </mvc:View>
